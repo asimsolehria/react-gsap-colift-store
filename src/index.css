@@ -1,18 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 section {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
+
 /* section::before{
     content: '';
     position: absolute;
@@ -21,17 +22,19 @@ section {
     width: 100%;
     height: 100px;
     background: linear-gradient(to top,#fff,transparent);
-    z-index: 1000;  
+    z-index: 1000;
 } */
+
 section img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
 }
+
 .text1,
 .text2,
 .text3,
@@ -45,10 +48,11 @@ section img {
 .text11,
 .text12,
 .text13 {
-    position: absolute;
+  position: absolute;
 }
+
 .text1 {
-    margin-top: -10%;
+  margin-top: -10%;
 }
 
 .text2,
@@ -59,316 +63,359 @@ section img {
 .text6,
 .text7,
 .text11 {
-    margin-top: -15%;
+  margin-top: -15%;
 }
 
-#logo {
-    position: relative;
-    color: #000;
-    font-size: 5vw;
-    z-index: 7;
-    opacity: 0;
+#logo1 {
+  position: relative;
+  color: #000;
+  font-size: 5vw;
+  z-index: 7;
+  opacity: 0;
 }
-#logo img {
-    width: 150px;
-    height: 150px;
-    margin-left: 25%;
+
+#logo1 img {
+  width: 150px;
+  height: 150px;
+  margin-left: 25%;
 }
-#logo p {
-    padding-top: 80px;
-    color: #20496a;
-    font-size: 1.5vw;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    width: auto;
+
+#logo1 p {
+  padding-top: 80px;
+  color: #20496a;
+  font-size: 1.5vw;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: auto;
 }
-#logo h2 {
-    color: #20496a;
-    font-size: 1.5vw;
-    letter-spacing: 0.43vw;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: auto;
-    padding-left: 5px;
+
+#logo1 h2 {
+  color: #20496a;
+  font-size: 1.5vw;
+  letter-spacing: 0.43vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: auto;
+  padding-left: 5px;
 }
 
 #logo2 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
 }
+
 #logo2 p {
-    line-height: 130%;
-    font-size: 22px;
+  line-height: 130%;
+  font-size: 22px;
 }
+
 #logo3 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
 }
+
 #logo3 p {
-    line-height: 150%;
-    font-size: 22px;
+  line-height: 150%;
+  font-size: 22px;
 }
 
 #logo4 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
 }
+
 #logo4 p {
-    line-height: 150%;
-    font-size: 22px;
+  line-height: 150%;
+  font-size: 22px;
 }
+
 #logo5 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
-    visibility: hidden;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
+  visibility: hidden;
 }
+
 #logo6 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
 }
+
 #logo7 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
 }
+
 #logo8 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
-    visibility: hidden;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
+  visibility: hidden;
 }
+
 #logo8 p {
-    line-height: 150%;
-    font-size: 22px;
+  line-height: 150%;
+  font-size: 22px;
 }
+
 #logo9 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
-    visibility: hidden;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
+  visibility: hidden;
 }
+
 #logo9 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
-    visibility: hidden;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
+  visibility: hidden;
 }
+
 #logo9 p {
-    line-height: 150%;
-    font-size: 22px;
+  line-height: 150%;
+  font-size: 22px;
 }
+
 #logo10 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
-    visibility: hidden;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
+  visibility: hidden;
 }
+
 #logo10 h2 {
-    color: #20496a;
-    font-size: 1.5vw;
-    /* letter-spacing: 0.43vw; */
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: auto;
-    padding-left: 5px;
+  color: #20496a;
+  font-size: 1.5vw;
+  /* letter-spacing: 0.43vw; */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: auto;
+  padding-left: 5px;
 }
+
 #logo11 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
-    visibility: hidden;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
+  visibility: hidden;
 }
+
 #logo11 p {
-    line-height: 150%;
-    font-size: 22px;
+  line-height: 150%;
+  font-size: 22px;
 }
+
 #logo12 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
-    visibility: hidden;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
+  visibility: hidden;
 }
+
 #logo12 p {
-    line-height: 150%;
-    font-size: 22px;
+  line-height: 150%;
+  font-size: 22px;
 }
+
 #logo13 {
-    position: relative;
-    color: #20496a;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    z-index: 7;
-    opacity: 0;
+  position: relative;
+  color: #20496a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  z-index: 7;
+  opacity: 0;
 }
+
 #logo13 p {
-    line-height: 150%;
-    font-size: 22px;
+  line-height: 150%;
+  font-size: 22px;
 }
+
 #mountain1 {
-    position: absolute;
-    z-index: 8;
+  position: absolute;
+  z-index: 8;
 }
+
 #mountain2 {
-    position: absolute;
-    z-index: 6;
+  position: absolute;
+  z-index: 6;
 }
+
 #mountainPartial {
-    position: absolute;
-    z-index: 7;
+  position: absolute;
+  z-index: 7;
 }
+
 #mountain3 {
-    position: absolute;
-    z-index: 4;
+  position: absolute;
+  z-index: 4;
 }
+
 #bushes {
-    position: absolute;
-    z-index: 7;
+  position: absolute;
+  z-index: 7;
 }
+
 #cloud1 {
-    width: auto;
-    height: auto;
-    margin-left: -10%;
+  width: auto;
+  height: auto;
+  margin-left: -10%;
 }
+
 #cloud2 {
-    width: auto;
-    height: auto;
-    margin-top: 20%;
+  width: auto;
+  height: auto;
+  margin-top: 20%;
 }
+
 #cloud3 {
-    width: auto;
-    height: auto;
-    margin-left: 70%;
+  width: auto;
+  height: auto;
+  margin-left: 70%;
 }
+
 #cloud4 {
-    width: auto;
-    height: auto;
-    margin-left: 50%;
-    margin-top: 30vh;
+  width: auto;
+  height: auto;
+  margin-left: 50%;
+  margin-top: 30vh;
 }
 
 #bee {
-    position: absolute;
-    width: 229px;
-    height: 243px;
-    z-index: 7;
-    margin-top: 500px;
-    margin-left: -230px;
+  position: absolute;
+  width: 229px;
+  height: 243px;
+  z-index: 7;
+  margin-top: 500px;
+  margin-left: -230px;
 }
-#bee-stand {
-    position: absolute;
-    width: 156px;
-    height: 230px;
-    z-index: 8;
-    margin-top: 400px;
-    margin-left: 100%;
-}
-#bee-cow {
-    width: 250px;
-    height: 187px;
-    margin-top: 450px;
-    margin-left: -30%;
-}
-#bee-cycle {
-    position: absolute;
-    width: 150px;
-    height: 249px;
-    z-index: 6;
-    margin-top: 500px;
-    margin-left: 100%;
-}
-#bee-board {
-    position: absolute;
-    width: 200px;
-    height: 199px;
-    z-index: 6;
-    margin-left: 100%;
-}
-#bee-ski {
-    position: absolute;
-    width: 200px;
-    height: 182px;
-    z-index: 6;
-    margin-top: 380px;
-    margin-left: -50px;
-}
-#bee-climb {
-    width: 180px;
-    z-index: 8;
-    height: 746px;
-    margin-left: 75%;
-    margin-top: -1000px;
-}
-#trees2 {
-    position: absolute;
 
-    z-index: 1;
+#bee-stand {
+  position: absolute;
+  width: 156px;
+  height: 230px;
+  z-index: 8;
+  margin-top: 400px;
+  margin-left: 100%;
 }
+
+#bee-cow {
+  width: 250px;
+  height: 187px;
+  margin-top: 450px;
+  margin-left: -30%;
+}
+
+#bee-cycle {
+  position: absolute;
+  width: 150px;
+  height: 249px;
+  z-index: 6;
+  margin-top: 500px;
+  margin-left: 100%;
+}
+
+#bee-board {
+  position: absolute;
+  width: 200px;
+  height: 199px;
+  z-index: 6;
+  margin-left: 100%;
+}
+
+#bee-ski {
+  position: absolute;
+  width: 200px;
+  height: 182px;
+  z-index: 6;
+  margin-top: 380px;
+  margin-left: -50px;
+}
+
+#bee-climb {
+  width: 180px;
+  z-index: 8;
+  height: 746px;
+  margin-left: 75%;
+  margin-top: -1000px;
+}
+
+#trees2 {
+  position: absolute;
+  z-index: 1;
+}
+
 #trees1 {
-    position: absolute;
-    z-index: 4;
+  position: absolute;
+  z-index: 4;
 }
 
 #ground {
-    margin-top: 500px;
+  margin-top: 500px;
 }
+
 #tree-ground {
-    margin-top: 1000px;
+  margin-top: 1000px;
 }
+
 #green-ground {
-    margin-top: 1000px;
+  margin-top: 1000px;
 }
 
 .sec {
-    position: relative;
-    padding: 100px;
+  position: relative;
+  padding: 100px;
 }
+
 .sec h2 {
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    color: #20496a;
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #20496a;
 }
+
 .sec p {
-    font-size: 1.2em;
-    color: #20496a;
+  font-size: 1.2em;
+  color: #20496a;
 }
