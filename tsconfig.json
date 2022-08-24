@@ -19,7 +19,9 @@
     "paths": {
       "@components/*": ["./src/components/*"],
       "@images": ["./src/assets/images/index"],
-      "@containers/*": ["./src/components/containers/*"]
+      "@containers/*": ["./src/components/containers/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@utils/*": ["./src/utils/*"]
     }
   },
   "include": ["src"]

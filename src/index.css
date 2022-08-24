@@ -12,6 +12,7 @@ section {
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  /* min-height: 10000px; */
 }
 
 /* section::before{
@@ -323,7 +324,7 @@ section img {
   margin-top: 30vh;
 }
 
-#bee {
+#bee-hike {
   position: absolute;
   width: 229px;
   height: 243px;

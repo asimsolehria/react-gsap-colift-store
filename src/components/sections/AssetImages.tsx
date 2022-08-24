@@ -39,7 +39,7 @@ function AssetImages() {
       <img src={trees1} alt='' id='trees1' />
       <img src={trees2} alt='' id='trees2' />
 
-      <img src={beeHike} alt='' id='bee' className='bee-hike' />
+      <img src={beeHike} alt='' id='bee-hike' className='bee-hike' />
       <img src={beeStand} alt='' id='bee-stand' className='bee-stand' />
       <img src={beeCycle} alt='' id='bee-cycle' className='bee-cycle' />
       <img src={beeBoard} alt='' id='bee-board' className='bee-board' />
