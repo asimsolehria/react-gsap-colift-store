@@ -347,6 +347,7 @@ section img {
   height: 187px;
   margin-top: 450px;
   margin-left: -30%;
+  z-index: 8;
 }
 
 #bee-cycle {
