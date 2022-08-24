@@ -161,7 +161,7 @@ function TextSections() {
         <iframe
           width='500'
           height='250'
-          src='/https://www.youtube.com/embed/BUg-0kL3znY'
+          src='https://www.youtube.com/embed/BUg-0kL3znY'
           title='Testimonial'
         ></iframe>
       </TextSection>
